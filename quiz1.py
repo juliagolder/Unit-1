@@ -2,9 +2,9 @@
 #1/26/18
 #quiz1.py - first quiz
 
-print('Hello)
-name = input('What is your name?')
-number = input('What is your favorite number?')
+print('Hello')
+name = input('Enter your name')
+number = int(input('Enter your favorite number'))
 print(name*number)
-number2 = input('What is your second favorite number?')
-lucky = print(number*number2)
+second_number = input('Enter your second favorite number')
+print('Your lucky number is', int(number**second_number))
